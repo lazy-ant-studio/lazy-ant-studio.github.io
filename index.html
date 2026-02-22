@@ -1,108 +1,109 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>懶惰螞蟻工作室 | Lazy Ant Studio - Notion 系統設計</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;700&display=swap" rel="stylesheet">
-    <style>
-        body { font-family: 'Noto Sans TC', sans-serif; background-color: #FAF7F2; } /* 淺木底色 */
-        .cta-color { background-color: #84a59d; } /* 鼠尾草綠 */
-        .cta-hover:hover { background-color: #6b8e87; }
-        .text-main { color: #2D3748; }
-    </style>
-</head>
-<body class="text-main">
-
-    <nav class="p-6 flex justify-between items-center max-w-6xl mx-auto">
-        <div class="text-2xl font-bold tracking-tighter">LAZY ANT STUDIO</div>
-        <div class="space-x-6 hidden md:block">
-            <a href="#services" class="hover:text-gray-500">服務項目</a>
-            <a href="#about" class="hover:text-gray-500">關於我們</a>
-            <a href="#contact" class="hover:text-gray-500">聯絡我們</a>
-        </div>
-    </nav>
-
-    <header class="py-20 px-6 max-w-6xl mx-auto text-center md:text-left md:flex items-center">
-        <div class="md:w-2/3">
-            <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-                聰明的螞蟻不忙碌。<br>用 Notion 打造自轉系統。
-            </h1>
-            <p class="text-lg text-gray-600 mb-8 max-w-xl">
-                我們協助專業人士從重複勞動中解脫。透過系統架構設計，讓你節省精力去發展核心價值。
-            </p>
-            <a href="#contact" class="cta-color text-white px-8 py-3 rounded-full text-lg font-medium hover:shadow-lg transition cta-hover">
-                預約免費諮詢
-            </a>
-        </div>
-        <div class="hidden md:block md:w-1/3">
-            <div class="bg-white p-10 rounded-2xl shadow-sm border border-gray-100 text-center">
-                <span class="text-8xl">🐜</span>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>懶惰螞蟻工作室 | Lazy Ant Studio - Notion 系統設計</title>
+        
+        <link rel="icon" href="logo.jpg" type="image/jpeg">
+        <link rel="apple-touch-icon" href="logo.jpg">
+    
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;700&display=swap" rel="stylesheet">
+        <style>
+            body { font-family: 'Noto Sans TC', sans-serif; background-color: #FAF7F2; } /* 淺木底色 */
+            .cta-color { background-color: #84a59d; } /* 鼠尾草綠 */
+            .cta-hover:hover { background-color: #6b8e87; }
+            .text-main { color: #2D3748; }
+            .logo-img { max-width: 100%; height: auto; border-radius: 1rem; }
+        </style>
+    </head>
+    <body class="text-main">
+        <nav class="p-6 flex justify-between items-center max-w-6xl mx-auto">
+            <div class="text-2xl font-bold tracking-tighter">LAZY ANT STUDIO</div>
+            <div class="space-x-6 hidden md:block">
+                <a href="#services" class="hover:text-gray-500">服務項目</a>
+                <a href="#about" class="hover:text-gray-500">關於我們</a>
+                <a href="#contact" class="hover:text-gray-500">聯絡我們</a>
             </div>
-        </div>
-    </header>
-
-    <section id="services" class="py-20 bg-white">
-        <div class="max-w-6xl mx-auto px-6">
-            <h2 class="text-3xl font-bold mb-12 text-center">服務範圍</h2>
-            <div class="grid md:grid-cols-2 gap-10">
-                <div class="border p-8 rounded-xl hover:border-gray-400 transition">
-                    <h3 class="text-xl font-bold mb-4">Notion Templates</h3>
-                    <p class="text-gray-600 mb-6">精心打磨的垂直產業解決方案，開箱即用。</p>
-                    <ul class="space-y-2 mb-8 text-sm">
-                        <li>✅ 心理諮商所 執業管理系統</li>
-                        <li>⏳ 行動心理師 執業管理系統 (Coming Soon)</li>
-                    </ul>
-                    <a href="https://www.notion.com/zh-tw/@lazy_ant_studio" target="_blank" rel="noopener noreferrer" class="text-sm font-bold border-b-2 border-black pb-1">查看所有模板 →</a>
-                </div>
-                <div class="border p-8 rounded-xl hover:border-gray-400 transition">
-                    <h3 class="text-xl font-bold mb-4">Freelancing / Consulting</h3>
-                    <p class="text-gray-600 mb-6">為你的業務量身定制的系統架構，徹底解決數位轉型痛點。</p>
-                    <ul class="space-y-2 mb-8 text-sm text-gray-500">
-                        <li>• 客製化 Notion 系統架構設計</li>
-                        <li>• 工作流優化與自動化評估</li>
-                        <li>• 後續維護與代管 (長期合作限定)</li>
-                    </ul>
-                    <a href="#contact" class="text-sm font-bold border-b-2 border-black pb-1">預約免費諮詢 →</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="about" class="py-20 max-w-4xl mx-auto px-6 text-center">
-        <h2 class="text-3xl font-bold mb-8">關於「懶惰螞蟻」</h2>
-        <div class="space-y-6 text-lg text-gray-700 leading-relaxed italic">
-            <p>
-                「我喜歡找到一勞永逸的方法，讓工作愈來愈輕鬆。」
-            </p>
-            <p class="not-italic text-base text-gray-600">
-                我是 Irene，懶惰螞蟻工作室的創辦人。我追求的是效率，而不是瞎忙。
-            </p>
-            <p class="not-italic text-base text-gray-600">
-                就像蟻群中負責找尋出路的『懶惰螞蟻』，我透過策略思考與觀察，為客戶提供更有韌性、更創新的解決方案，讓系統幫你分擔工作的勞累。
-            </p>
-            <p class="not-italic text-base text-gray-600">
-                透過觀察、規劃與創新系統，我們能對抗環境變動，確保即使在休息或發展興趣時，系統依然能穩健運作。
-            </p>
-        </div>
-    </section>
-
-    <section id="contact" class="py-20 bg-gray-50">
-        <div class="max-w-4xl mx-auto px-6 text-center">
-            <h2 class="text-3xl font-bold mb-4">開始你的系統革命</h2>
-            <p class="text-gray-600 mb-10">無論是尋找模板，還是需要深度顧問合作，歡迎隨時聯絡。</p>
-            <div class="flex flex-col md:flex-row justify-center gap-4">
-                <a href="https://calendar.app.google/4Svcq8DaqovYVFN26" target="_blank" rel="noopener noreferrer" class="cta-color text-white px-8 py-3 rounded-full text-lg font-medium hover:shadow-lg transition cta-hover">
-                    預約 20 分鐘免費諮詢
+        </nav>
+    
+        <header class="py-20 px-6 max-w-6xl mx-auto text-center md:text-left md:flex items-center gap-12">
+            <div class="md:w-2/3">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+                    聰明的螞蟻不忙碌。<br>用 Notion 打造自轉系統。
+                </h1>
+                <p class="text-lg text-gray-600 mb-8 max-w-xl">
+                    我們協助專業人士從重複勞動中解脫。透過系統架構設計，讓你節省精力去發展核心價值。
+                </p>
+                <a href="#contact" class="cta-color text-white px-8 py-3 rounded-full text-lg font-medium hover:shadow-lg transition cta-hover">
+                    預約免費諮詢
                 </a>
             </div>
-        </div>
-    </section>
-
-    <footer class="py-10 text-center text-gray-400 text-sm">
-        &copy; 2026 懶惰螞蟻工作室 Lazy Ant Studio.
-    </footer>
-
-</body>
+            <div class="hidden md:block md:w-1/3">
+                <img src="logo.jpg" alt="Lazy Ant Studio Logo" class="logo-img shadow-sm border border-gray-100">
+            </div>
+        </header>
+    
+        <section id="services" class="py-20 bg-white">
+            <div class="max-w-6xl mx-auto px-6">
+                <h2 class="text-3xl font-bold mb-12 text-center">服務範圍</h2>
+                <div class="grid md:grid-cols-2 gap-10">
+                    <div class="border p-8 rounded-xl hover:border-gray-400 transition">
+                        <h3 class="text-xl font-bold mb-4">Notion Templates</h3>
+                        <p class="text-gray-600 mb-6">精心打磨的垂直產業解決方案，開箱即用。</p>
+                        <ul class="space-y-2 mb-8 text-sm">
+                            <li>✅ 心理諮商所 執業管理系統</li>
+                            <li>⏳ 行動心理師 執業管理系統 (Coming Soon)</li>
+                        </ul>
+                        <a href="https://www.notion.com/zh-tw/@lazy_ant_studio" target="_blank" rel="noopener noreferrer" class="text-sm font-bold border-b-2 border-black pb-1">查看所有模板 →</a>
+                    </div>
+                    <div class="border p-8 rounded-xl hover:border-gray-400 transition">
+                        <h3 class="text-xl font-bold mb-4">Freelancing / Consulting</h3>
+                        <p class="text-gray-600 mb-6">為你的業務量身定制的系統架構，徹底解決數位轉型痛點。</p>
+                        <ul class="space-y-2 mb-8 text-sm">
+                            <li>🎨 客製化 Notion 系統架構設計</li>
+                            <li>⚡ 工作流優化與自動化評估</li>
+                            <li>🛠️ 後續維護與代管 (長期合作限定)</li>
+                        </ul>
+                        <a href="#contact" class="text-sm font-bold border-b-2 border-black pb-1">預約免費諮詢 →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="about" class="py-20 max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-8">關於我們</h2>
+            <div class="space-y-6 text-lg text-gray-700 leading-relaxed">
+                <p class="italic text-gray-500">
+                    「我喜歡找到一勞永逸的方法，讓工作愈來愈輕鬆。」
+                </p>
+                <p class="text-base text-gray-600">
+                    我是 Irene，懶惰螞蟻工作室的創辦人。我追求的是效率，而不是瞎忙。
+                </p>
+                <p class="text-base text-gray-600">
+                    就像蟻群中負責找尋出路的『懶惰螞蟻』，我透過策略思考與觀察，為客戶提供更有韌性、更創新的解決方案，讓系統幫你分擔工作的勞累。
+                </p>
+                <p class="text-base text-gray-600">
+                    透過觀察、規劃與創新系統，我們能對抗環境變動，確保即使在休息或發展興趣時，系統依然能穩健運作。
+                </p>
+            </div>
+        </section>
+    
+        <section id="contact" class="py-20 bg-gray-50">
+            <div class="max-w-4xl mx-auto px-6 text-center">
+                <h2 class="text-3xl font-bold mb-4">開始你的系統革命</h2>
+                <p class="text-gray-600 mb-10">無論是尋找模板，還是需要深度顧問合作，歡迎隨時聯絡。</p>
+                <div class="flex flex-col md:flex-row justify-center gap-4">
+                    <a href="https://calendar.app.google/4Svcq8DaqovYVFN26" target="_blank" rel="noopener noreferrer" class="cta-color text-white px-8 py-3 rounded-full text-lg font-medium hover:shadow-lg transition cta-hover">
+                        預約 20 分鐘免費諮詢
+                    </a>
+                </div>
+            </div>
+        </section>
+    
+        <footer class="py-10 text-center text-gray-400 text-sm">
+            &copy; 2026 懶惰螞蟻工作室 Lazy Ant Studio.
+        </footer>
+    </body>
 </html>
